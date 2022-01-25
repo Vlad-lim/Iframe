@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        <div class = 'container'>
+                
+                <iframe src="https://m.w-creation.ru/" width = '320px' height = '700px' frameborder="0">
+                </iframe>
+                <img src="Samsung_s21.png" alt="">
+        </div>
+        
+
+
+        <style>
+                body{
+	padding:30px 0px;
+	}
+                img{
+                        width:340px;
+                        z-index: 9;
+                        user-select: none;
+                        pointer-events: none;
+                }
+                iframe, img{
+                        display:block;
+                        margin:0 auto;
+                        position: absolute;
+                        top:50%;
+                        left:50%;
+                        transform:translate(-50%, -50%)
+
+                }
+                @media(max-width:400px){
+                        iframe{
+                                width:280px;
+                                height:600px;
+                        }
+                        img{
+                                width:300px;
+                                height:607px;
+                        }
+                }
+        </style>
+</body>
+</html>
